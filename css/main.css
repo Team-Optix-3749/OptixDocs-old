@@ -14,3 +14,8 @@ body {
     width: 900px;
     text-align: center;
 }
+
+.container img {
+    margin: 3rem 0 0 0;
+    width: 500px;
+}
