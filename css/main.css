@@ -14,6 +14,7 @@ body {
     background-color: #000000;
     color: white;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 .container {
@@ -30,8 +31,9 @@ body {
 
 .main-box {
     margin: 3rem auto;
-    width: 700px;
-    height: 60%;
-    border-radius: 20px;
-    background-color: blue;
+    padding: 1.5rem;
+    width: 750px;
+    height: 55%;
+    border-radius: 60px;
+    background-color: var(--blue);
 }
