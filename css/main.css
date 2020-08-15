@@ -49,6 +49,7 @@ body {
 
 .nav button:hover {
     cursor: pointer;
+    text-decoration;
 }
 
 .main-box {
