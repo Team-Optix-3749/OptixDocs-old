@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+:root {
+    --foreground: #1d2638;
+    --blue: #208cbb;
+    --green: #49c66a;
+    --limegreen: #15e551;
+}
+
 html,
 body {
     margin: 0;
@@ -13,9 +20,18 @@ body {
     margin: 0 auto;
     width: 900px;
     text-align: center;
+    height: 100%;
 }
 
 .container img {
     margin: 3rem 0 0 0;
     width: 400px;
+}
+
+.main-box {
+    margin: 3rem auto;
+    width: 700px;
+    height: 60%;
+    border-radius: 20px;
+    background-color: blue;
 }
