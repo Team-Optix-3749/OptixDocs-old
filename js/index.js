@@ -6,6 +6,7 @@ document.getElementById("design")
 document.getElementById("build")
 
 const renderGeneral = () => {
+    console.log("rendering general")
     document.getElementById("general").style.display = "inline-block"
     document.getElementById("software").style.display = "none"
     document.getElementById("electrical").style.display = "none"
@@ -14,6 +15,7 @@ const renderGeneral = () => {
 }
 
 const renderSoftware = () => {
+    console.log("rendering software")
     document.getElementById("software").style.display = "inline-block"
     document.getElementById("general").style.display = "none"
     document.getElementById("electrical").style.display = "none"
@@ -22,6 +24,7 @@ const renderSoftware = () => {
 }
 
 const renderElectrical = () => {
+    console.log("rendering electrical")
     document.getElementById("electrical").style.display = "inline-block"
     document.getElementById("general").style.display = "none"
     document.getElementById("software").style.display = "none"
@@ -30,6 +33,7 @@ const renderElectrical = () => {
 }
 
 const renderDesign = () => {
+    console.log("rendering design")
     document.getElementById("design").style.display = "inline-block"
     document.getElementById("general").style.display = "none"
     document.getElementById("software").style.display = "none"
@@ -38,6 +42,7 @@ const renderDesign = () => {
 }
 
 const renderBuild = () => {
+    console.log("rendering build")
     document.getElementById("build").style.display = "inline-block"
     document.getElementById("general").style.display = "none"
     document.getElementById("software").style.display = "none"
