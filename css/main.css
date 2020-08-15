@@ -63,3 +63,19 @@ body {
     margin: 1.5rem auto;
 
 }
+
+#software {
+    display: none;
+}
+
+#electrical {
+    display: none;
+}
+
+#design {
+    display: none;
+}
+
+#build {
+    display: none;
+}
