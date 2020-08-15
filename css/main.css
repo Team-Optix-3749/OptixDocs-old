@@ -17,6 +17,10 @@ body {
     height: 100%;
 }
 
+a {
+    color: var(--limegreen);
+}
+
 .container {
     margin: 0 auto;
     width: 900px;
