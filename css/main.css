@@ -78,6 +78,10 @@ hr {
     width: 80%;
 }
 
+.content div h1 {
+    color: var(--blue);
+}
+
 @media screen and (max-width: 700px) {
     .sidebar {
         width: 100%;
