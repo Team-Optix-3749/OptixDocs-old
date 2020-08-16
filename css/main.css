@@ -22,6 +22,10 @@ a {
     color: var(--blue);
 }
 
+a p {
+    font-size: 1.3rem;
+}
+
 hr {
     outline: none;
     border: none;
