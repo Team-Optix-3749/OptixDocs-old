@@ -23,6 +23,7 @@ a {
 
 .logo {
     font-family: 'Orbitron', sans-serif;
+    text-align: center;
 }
 
 .logo:hover {
