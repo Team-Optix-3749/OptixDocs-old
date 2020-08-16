@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" type="image/png" href="./favicon.png">
     <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="title" content="OptixDocs">
     <meta name="description"
         content="Team Optix's collection of technical and general FIRST® Robotics Competition resources.">
@@ -23,7 +24,7 @@
 
 <body onload="renderGeneral()">
     <div class="main-box">
-        <div class="sidebar">
+        <div class="sidebar" data-aos="fade-right">
             <h1 class="logo" onclick="renderGeneral()">Optix<span>DOCS</span></h1>
             <a id="general-link" onclick="renderGeneral()">General</a>
             <a id="software-link" onclick="renderSoftware()">Software</a>
@@ -32,7 +33,7 @@
             <a id="build-link" onclick="renderBuild()">Build</a>
         </div>
         <div class="content">
-            <div id="general">
+            <div id="general" data-aos="fade-left">
                 <h1>General Resources</h1>
                 <h3>Team Optix's collection of technical and general FIRST® Robotics Competition resources.</h3>
                 <hr>
@@ -216,6 +217,10 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
