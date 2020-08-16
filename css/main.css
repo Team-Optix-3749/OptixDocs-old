@@ -22,8 +22,8 @@ a {
     color: var(--blue);
 }
 
-a p {
-    font-size: 1.3rem;
+p a {
+    font-size: 1.1rem;
     font-weight: normal;
 }
 
