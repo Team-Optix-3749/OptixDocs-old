@@ -52,11 +52,6 @@ a {
     text-decoration: none;
 }
 
-.sidebar a.active {
-    background-color: var(--lime-green);
-    color: var(--text);
-}
-
 .sidebar a:hover:not(.active) {
     background-color: var(--lime-green);
     color: var(--text);
