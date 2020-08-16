@@ -37,7 +37,7 @@ a {
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 250px;
     background-color: var(--main);
     position: fixed;
     height: 100%;
@@ -62,9 +62,9 @@ a {
 }
 
 div.content {
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 1px 16px;
-    height: 1000px;
+    overflow: auto;
 }
 
 @media screen and (max-width: 700px) {
