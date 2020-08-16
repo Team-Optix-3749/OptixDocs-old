@@ -20,10 +20,10 @@ const renderGeneral = () => {
     design.style.display = "none"
     build.style.display = "none"
     generalLink.style.backgroundColor = "#14e350"
-    softwareLink.style.backgroundColor = "none"
-    electricalLink.style.backgroundColor = "none"
-    designLink.style.backgroundColor = "none"
-    buildLink.style.backgroundColor = "none"
+    softwareLink.style.backgroundColor = "transparent"
+    electricalLink.style.backgroundColor = "transparent"
+    designLink.style.backgroundColor = "transparent"
+    buildLink.style.backgroundColor = "transparent"
 }
 
 const renderSoftware = () => {
@@ -33,11 +33,11 @@ const renderSoftware = () => {
     electrical.style.display = "none"
     design.style.display = "none"
     build.style.display = "none"
-    generalLink.style.backgroundColor = "none"
+    generalLink.style.backgroundColor = "transparent"
     softwareLink.style.backgroundColor = "#14e350"
-    electricalLink.style.backgroundColor = "none"
-    designLink.style.backgroundColor = "none"
-    buildLink.style.backgroundColor = "none"
+    electricalLink.style.backgroundColor = "transparent"
+    designLink.style.backgroundColor = "transparent"
+    buildLink.style.backgroundColor = "transparent"
 }
 
 const renderElectrical = () => {
@@ -47,11 +47,11 @@ const renderElectrical = () => {
     software.style.display = "none"
     design.style.display = "none"
     build.style.display = "none"
-    generalLink.style.backgroundColor = "none"
-    softwareLink.style.backgroundColor = "none"
+    generalLink.style.backgroundColor = "transparent"
+    softwareLink.style.backgroundColor = "transparent"
     electricalLink.style.backgroundColor = "#14e350"
-    designLink.style.backgroundColor = "none"
-    buildLink.style.backgroundColor = "none"
+    designLink.style.backgroundColor = "transparent"
+    buildLink.style.backgroundColor = "transparent"
 }
 
 const renderDesign = () => {
@@ -61,11 +61,11 @@ const renderDesign = () => {
     software.style.display = "none"
     electrical.style.display = "none"
     build.style.display = "none"
-    generalLink.style.backgroundColor = "none"
-    softwareLink.style.backgroundColor = "none"
-    electricalLink.style.backgroundColor = "none"
+    generalLink.style.backgroundColor = "transparent"
+    softwareLink.style.backgroundColor = "transparent"
+    electricalLink.style.backgroundColor = "transparent"
     designLink.style.backgroundColor = "#14e350"
-    buildLink.style.backgroundColor = "none"
+    buildLink.style.backgroundColor = "transparent"
 }
 
 const renderBuild = () => {
@@ -75,9 +75,9 @@ const renderBuild = () => {
     software.style.display = "none"
     electrical.style.display = "none"
     design.style.display = "none"
-    generalLink.style.backgroundColor = "none"
-    softwareLink.style.backgroundColor = "none"
-    electricalLink.style.backgroundColor = "none"
-    designLink.style.backgroundColor = "none"
+    generalLink.style.backgroundColor = "transparent"
+    softwareLink.style.backgroundColor = "transparent"
+    electricalLink.style.backgroundColor = "transparent"
+    designLink.style.backgroundColor = "transparent"
     buildLink.style.backgroundColor = "#14e350"
 }
