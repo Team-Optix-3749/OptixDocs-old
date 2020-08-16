@@ -52,7 +52,7 @@ a {
     text-decoration: none;
 }
 
-.sidebar a:hover:not(.active) {
+.sidebar a:hover {
     background-color: var(--lime-green);
     color: var(--text);
 }
