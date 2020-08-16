@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Orbitron&display=swap');
 
 :root {
     --background: #3b444b;
@@ -50,6 +50,8 @@ a {
     color: black;
     padding: 1rem 1.5rem;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .sidebar a:hover {
@@ -65,19 +67,19 @@ div.content {
 }
 
 @media screen and (max-width: 700px) {
-.sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 
-.sidebar a {float: left;}
+    .sidebar a {float: left;}
     div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
-.sidebar a {
-    text-align: center;
-    float: none;
-}
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }
