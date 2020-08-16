@@ -85,6 +85,11 @@ div.content {
     }
 }
 
+::selection {
+    background: var(--lime-green);
+    color: var(--blue);
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
