@@ -54,7 +54,7 @@ a {
 
 .sidebar a:hover {
     cursor: pointer;
-    background-color: var(--lime-green);
+    background-color: var(--lime-green) !important;
     color: var(--text);
 }
 
