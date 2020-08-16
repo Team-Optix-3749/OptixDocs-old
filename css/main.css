@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&display=swap');
 
 :root {
+    --background: #3b444b;
+    --background-dark: #232b2b;
     --main: #f1f1f1;
     --alternate: #e37971;
     --lime-green: #14e350;
