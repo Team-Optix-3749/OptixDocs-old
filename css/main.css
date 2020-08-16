@@ -5,8 +5,9 @@
     --background-dark: #232b2b;
     --main: #f1f1f1;
     --alternate: #e37971;
-    --lime-green: #14e350;
     --text: black;
+    --lime-green: #14e350;
+    --blue: #208cbb;
 }
 
 html,
