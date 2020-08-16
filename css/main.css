@@ -1,90 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
 :root {
-    --foreground: #1d2638;
-    --blue: #208cbb;
-    --green: #49c66a;
-    --limegreen: #15e551;
+    --main: #f1f1f1;
+    --alternate: #e37971;
+    --text: black;
 }
 
-html,
-body {
+.sidebar {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #000000;
-    color: white;
-    scroll-behavior: smooth;
+    padding: 0;
+    width: 200px;
+    background-color: var(--main);
+    position: fixed;
     height: 100%;
+    overflow: auto;
 }
 
-a {
-    color: var(--limegreen);
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
 }
 
-.container {
-    margin: 0 auto;
-    width: 900px;
-    text-align: center;
-    height: 100%;
+.sidebar a.active {
+    background-color: var(--alternate);
+    color: var(--text);
 }
 
-.container img {
-    margin: 3rem 0 0 0;
-    width: 400px;
+.sidebar a:hover:not(.active) {
+background-color: var(--alternate);
+color: var(--text);
 }
 
-.nav {
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+.sidebar {
     width: 100%;
-    padding: 1rem 0;
-    background-color: var(--green);
-    border-radius: 80px;
-    display: flex;
-    justify-content: space-evenly;
+    height: auto;
+    position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
 }
 
-.nav button {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
+@media screen and (max-width: 400px) {
+.sidebar a {
+    text-align: center;
+    float: none;
 }
-
-.nav button:hover {
-    cursor: pointer;
-    text-decoration;
-}
-
-.main-box {
-    margin: 3rem auto;
-    padding: 1.5rem;
-    width: 750px;
-    height: 55%;
-    border-radius: 60px;
-    background-color: var(--blue);
-    -webkit-box-shadow: 0px 0px 54px -10px rgba(21,229,81,1);
-    -moz-box-shadow: 0px 0px 54px -10px rgba(21,229,81,1);
-    box-shadow: 0px 0px 54px -10px rgba(21,229,81,1);
-}
-
-.sections {
-    margin: 1.5rem auto;
-
-}
-
-#software {
-    display: none;
-}
-
-#electrical {
-    display: none;
-}
-
-#design {
-    display: none;
-}
-
-#build {
-    display: none;
 }

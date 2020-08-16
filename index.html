@@ -1,43 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/main.css" />
-        <script defer src="./js/index.js"></script>
-        <title>Optix Docs</title>
-    </head>
-    <body>
-        <div class="container">
-            <img src="./img/logo.svg">
-            <div class="main-box">
-                <div class="nav">
-                    <button onclick=renderGeneral()>General</button>
-                    <button onclick=renderSoftware()>Software</button>
-                    <button onclick=renderElectrical()>Electrical</button>
-                    <button onclick=renderDesign()>Design</button>
-                    <button onclick=renderBuild()>Build</button>
-                </div>
-                <div class="sections">
-                    <div id="general">
-                        <a href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0">
-                            <p>Raadwan's Epic Robotics Playlist</p>
-                        </a>
-                    </div>
-                    <div id="software">
-                        software
-                    </div>
-                    <div id="electrical">
-                        electrical
-                    </div>
-                    <div id="design">
-                        design
-                    </div>
-                    <div id="build">
-                        build
-                    </div>
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Optix DOCS</title>
+</head>
+
+<body onload="renderGeneral()">
+    <h1>Optix DOCS</h1>
+    <div class="main-box">
+        <div class="sidebar">
+            <a onclick="renderGeneral()">General</a>
+            <a onclick="renderSoftware()">Software</a>
+            <a onclick="renderElectrical()">Electrical</a>
+            <a onclick="renderDesign()">Design</a>
+            <a onclick="renderBuild()">Build</a>
+        </div>
+
+        <div class="content">
+
+            <div id="general">
+                <a href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0">
+                    <p>Raadwan's Epic Robotics Playlist</p>
+                </a>
+            </div>
+
+            <div id="software">
+                software
+            </div>
+
+            <div id="electrical">
+                electrical
+            </div>
+
+            <div id="design">
+                design
+            </div>
+
+            <div id="build">
+                build
             </div>
         </div>
-    </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
