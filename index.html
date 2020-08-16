@@ -1,143 +1,153 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script defer src="./js/index.js"></script>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
-    <link rel="icon" type="image/png" href="./img/favicon.png">
-    <meta name="title" content="Optix DOCS">
-    <meta name="description" content="Team Optix's collection of technical and general FIRST® Robotics Competition resources.">
-    <meta name="keywords" content="team optix, Team Optix, Optix, optix, Team Optix 3749, team optix 3749, team optix docs">
-    <meta property="image" content="https://docs.team3749.org/img/favicon.png">
-    <title>Optix DOCS</title>
-</head>
-
-<body onload="renderGeneral()">
-    <div class="main-box">
-        <div class="sidebar">
-            <h1 class="logo" onclick="renderGeneral()">Optix <span>DOCS</span></h1>
-            <a id="general-link" onclick="renderGeneral()">General</a>
-            <a id="software-link" onclick="renderSoftware()">Software</a>
-            <a id="electrical-link" onclick="renderElectrical()">Electrical</a>
-            <a id="design-link" onclick="renderDesign()">Design</a>
-            <a id="build-link" onclick="renderBuild()">Build</a>
-        </div>
-
-        <div class="content">
-
-            <div id="general">
-                <h1>General Resources</h1>
-                <h3>Team Optix's collection of technical and general FIRST® Robotics Competition resources.</h3>
-
-                <hr>
-
-                <h3>Youtube Videos/Playlists</h3>
-                <p> 
-                    <a href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0">
-                        Raadwan's Epic Robotics Playlist
-                    </a>
-                </p>
-
-                <h3>Important documents and rule books</h3>
-                <p> 
-                <a href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf">
-                    FRC Infinite Recharge Game and Season Manual
-                </a>
-                </p>
-
-                <p> 
-                <a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system">
-                    FRC Infinite Recharge Game and Season Materials
-                </a>
-                </p>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script defer src="./js/index.js"></script>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+        <link rel="icon" type="image/png" href="./img/favicon.png">
+        <meta name="title" content="Optix DOCS">
+        <meta name="description" content="Team Optix's collection of technical and general FIRST® Robotics Competition resources.">
+        <meta name="keywords" content="team optix, Team Optix, Optix, optix, Team Optix 3749, team optix 3749, team optix docs">
+        <meta property="image" content="https://docs.team3749.org/img/favicon.png">
+        <title>Optix DOCS</title>
+    </head>
+    <body onload="renderGeneral()">
+        <div class="main-box">
+            <div class="sidebar">
+                <h1 class="logo" onclick="renderGeneral()">Optix
+                    <span>DOCS</span>
+                </h1>
+                <a id="general-link" onclick="renderGeneral()">General</a>
+                <a id="software-link" onclick="renderSoftware()">Software</a>
+                <a id="electrical-link" onclick="renderElectrical()">Electrical</a>
+                <a id="design-link" onclick="renderDesign()">Design</a>
+                <a id="build-link" onclick="renderBuild()">Build</a>
             </div>
-
-            <div id="software">
-                <h1>Software Resources</h1>
-                <p>
-                Here at Team Optix we use the Java programming language for our robots. When programming robot
+            <div class="content">
+                <div id="general">
+                    <h1>General Resources</h1>
+                    <h3>Team Optix's collection of technical and general FIRST® Robotics Competition resources.</h3>
+                    <hr>
+                    <h3>Youtube Videos/Playlists</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0">
+                                    Raadwan's Epic Robotics Playlist
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                    <h3>Important documents and rule books</h3>
+                    <ul>
+                        <li>
+                    <p>
+                        <a href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf">
+                            FRC Infinite Recharge Game and Season Manual
+                        </a>
+                    </p>
+                        </li>
+                        <li>
+                    <p>
+                        <a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system">
+                            FRC Infinite Recharge Game and Season Materials
+                        </a>
+                    </p>
+                        </li>
+                </div>
+                <div id="software">
+                    <h1>Software Resources</h1>
+                    <p>
+                        Here at Team Optix we use the Java programming language for our robots. When programming robot
                     subsystems you will need to understand
                     Java and Object Oriented Programming (OOP) principles.
-                </p>
-
-                <hr>
-
-                <h3>Documentation<h3>
-                <p> 
-                <a href="https://frc-pdr.readthedocs.io/en/latest/index.html">
-                    General Documentation
-                </a>
-                </p>
-                <p> 
-                <a href="https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/new-for-2020.html">
-                    WPILib
-                </a>
-                </p>
-                <p> 
-                <a href="https://first.wpi.edu/FRC/roborio/release/docs/java/index.html">
-                    WPILib Java API
-                </a>
-                </p>
-                <p> 
-                <a href="https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html">
-                    CTRE Phoenix
-                </a>
-                </p>
-                <p> 
-                <a href="https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html">
-                    SPARK-MAX-roboRIO API
-                </a>
-                </p>
-                <p> 
-                <a href="https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/">
-                    Kauilabs navX MXP
-                </a>
-                </p>
-                <p> 
-                <a href="https://github.com/wpilibsuite/allwpilib/tree/master/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples">
-                    Java Examples
-                </a>
-                </p>
-                <p> 
-                <a href="https://robotpy.readthedocs.io/en/stable/">
-                    RobotPy
-                </a>
-                </p>
-                <p> 
-                <a href="https://pypi.org/project/frc-characterization/2020.226/">
-                    FRC-characterization 2020 (Python)
-                </a>
-                </p>
-                <a href="">
-                </a>
-            </div>
-
-            <div id="electrical">
-                <h1>Electrical Resources</h1>
-
-                <hr>
-                electrical
-            </div>
-
-            <div id="design">
-                <h1>Design Resources</h1>
-
-                <hr>
-                design
-            </div>
-
-            <div id="build">
-                <h1>Build Resources</h1>
-
-                <hr>
-                build
-            </div>
-        </div>
-    </div>
-</body>
-
-</html>
+                    </p>
+                    <hr>
+                    <h3>Documentation</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://frc-pdr.readthedocs.io/en/latest/index.html">
+                                    General Documentation
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/new-for-2020.html">
+                                    WPILib
+                                </a>
+                            </p>
+                        <li>
+                            <p>
+                                <a href="https://first.wpi.edu/FRC/roborio/release/docs/java/index.html">
+                                    WPILib Java API
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html">
+                                    CTRE Phoenix
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html">
+                                    SPARK-MAX-roboRIO API
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/">
+                                    Kauilabs navX MXP
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://github.com/wpilibsuite/allwpilib/tree/master/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples">
+                                    Java Examples
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://robotpy.readthedocs.io/en/stable/">
+                                    RobotPy
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="https://pypi.org/project/frc-characterization/2020.226/">
+                                    FRC-characterization 2020 (Python)
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                            <a href=""></a>
+                        </div>
+                        <div id="electrical">
+                            <h1>Electrical Resources</h1>
+                            <hr>
+                            electrical
+                        </div>
+                        <div id="design">
+                            <h1>Design Resources</h1>
+                            <hr>
+                            design
+                        </div>
+                        <div id="build">
+                            <h1>Build Resources</h1>
+                            <hr>
+                            build
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
