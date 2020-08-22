@@ -23,6 +23,11 @@ a {
   color: var(--blue);
 }
 
+a:hover {
+  color: var(--lime-green);
+  font-weight: bold;
+}
+
 p a {
   font-size: 1.1rem;
   font-weight: normal;
