@@ -1,119 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Orbitron&display=swap");
 
 :root {
-    --background: #3b444b;
-    --background-dark: #232b2b;
-    --main: #f1f1f1;
-    --alternate: #e37971;
-    --text: black;
-    --lime-green: #14e350;
-    --blue: #208cbb;
+  --background: #3b444b;
+  --background-dark: #232b2b;
+  --main: #f1f1f1;
+  --alternate: #e37971;
+  --text: black;
+  --lime-green: #14e350;
+  --blue: #208cbb;
 }
 
 html,
 body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: var(--text);
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 p a {
-    font-size: 1.1rem;
-    font-weight: normal;
+  font-size: 1.1rem;
+  font-weight: normal;
 }
 
 hr {
-    outline: none;
-    border: none;
-    background-color: var(--lime-green);
-    height: 2px;
+  outline: none;
+  border: none;
+  background-color: var(--lime-green);
+  height: 2px;
 }
 
 li {
-    color: var(--lime-green);
+  color: var(--lime-green);
 }
 
 .logo {
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
 }
 
 .logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .logo span {
-    color: var(--lime-green);
-    font-weight: bold;
+  color: var(--lime-green);
+  font-weight: bold;
 }
 
 .sidebar {
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: var(--main);
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: var(--main);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 .sidebar a {
-    display: block;
-    color: black;
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+  display: block;
+  color: black;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .sidebar a:hover {
-    cursor: pointer;
-    background-color: var(--lime-green) !important;
-    color: var(--text);
+  cursor: pointer;
+  background-color: var(--lime-green) !important;
+  color: var(--text);
 }
 
 .content {
-    margin-left: 250px;
-    padding: 1px 16px;
-    overflow: auto;
+  margin-left: 250px;
+  padding: 1px 16px;
+  overflow: auto;
 }
 
 .content div {
-    width: 80%;
-    margin: 0.3rem 1rem;
+  width: 80%;
+  margin: 0.3rem 1rem;
 }
 
 .content div h1 {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 @media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
 
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
 
 ::selection {
-    background: var(--lime-green);
-    color: var(--blue);
+  background: var(--lime-green);
+  color: var(--blue);
 }
 
 ::-webkit-scrollbar {
