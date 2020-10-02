@@ -1,520 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <script defer src="./js/index.js"></script>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <meta name="title" content="OptixDocs" />
-    <meta
-      name="description"
-      content="Team Optix's collection of technical and general FIRST® Robotics Competition resources."
-    />
-    <meta
-      name="keywords"
-      content="team optix, Team Optix, Optix, optix, Team Optix 3749, team optix 3749, team optix docs"
-    />
-    <meta name="image" content="https://docs.team3749.org/favicon.png" />
-    <meta property="og:image" content="https://docs.team3749.org/favicon.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="1200" />
-    <title>OptixDocs</title>
-  </head>
 
-  <body onload="renderGeneral()">
-    <div class="main-box">
-      <div class="sidebar" data-aos="fade-right">
-        <h1 class="logo" onclick="renderGeneral()">Optix<span>DOCS</span></h1>
-        <a id="general-link" onclick="renderGeneral()">General</a>
-        <a id="software-link" onclick="renderSoftware()">Software</a>
-        <a id="electrical-link" onclick="renderElectrical()">Electrical</a>
-        <a id="design-link" onclick="renderDesign()">Design</a>
-        <a id="build-link" onclick="renderBuild()">Build</a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script defer src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="title" content="OptixDocs" />
+  <meta name="description"
+    content="Team Optix's collection of technical and general FIRST® Robotics Competition resources." />
+  <meta name="keywords"
+    content="team optix, Team Optix, Optix, optix, Team Optix 3749, team optix 3749, team optix docs" />
+  <meta name="image" content="https://docs.team3749.org/favicon.png" />
+  <meta property="og:image" content="https://docs.team3749.org/favicon.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <title>OptixDocs</title>
+</head>
+
+<body onload="renderGeneral()">
+  <div class="main-box">
+    <div class="sidebar" data-aos="fade-right">
+      <h1 class="logo" onclick="renderGeneral()">Optix<span>DOCS</span></h1>
+      <a id="general-link" onclick="renderGeneral()">General</a>
+      <a id="software-link" onclick="renderSoftware()">Software</a>
+      <a id="electrical-link" onclick="renderElectrical()">Electrical</a>
+      <a id="design-link" onclick="renderDesign()">Design</a>
+      <a id="build-link" onclick="renderBuild()">Build</a>
+      <a id="news-link" onclick="renderNews()">News</a>
+    </div>
+    <div class="content" data-aos="fade-left">
+      <div id="general">
+        <h1>General Resources</h1>
+        <h3>
+          Team Optix's collection of technical and general FIRST® Robotics
+          Competition resources.
+        </h3>
+        <p>
+          Want to add a resource? Fill out
+          <a href="https://forms.gle/eVvEMcbjNQiSk38h6"><b>this form</b></a>.
+        </p>
+        <hr />
+        <h3>YouTube Videos/Playlists</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0">
+                Raadwan's Epic FRC Playlist
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/playlist?list=PLpbY-dp-255sw_KgVOCwdeTnY5634SAzD">
+                FRC Game Strategy Playlist
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://youtu.be/5fifL47TvzE">
+                Karthik Kanagasabapathy's Effective FIRST Strategies, part 1
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://youtu.be/Smb7U4wqgsM">
+                Karthik Kanagasabapathy's Effective FIRST Strategies, part 2
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://youtu.be/SVacrE4sKig">
+                Citrus Circuits Strategic Design
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Important Documents and Rule Books</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf">
+                FRC Infinite Recharge Game and Season Manual
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system">
+                FRC Infinite Recharge Game and Season Materials
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Online FIRST Community Forums/Discussion Boards</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://www.chiefdelphi.com/">
+                ChiefDelphi: A discussion forum for the FIRST community.
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://discord.gg/frc"> FRC Global Discord Server </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://discord.gg/FHdCMkG">
+                FRC California Discord Server
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://discord.gg/7vTXVFb">
+                FRC #SDSQUAD Discord Server
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Awards</h3>
+        <ul>
+          <li>
+            <p>
+              <a
+                href="https://docs.google.com/spreadsheets/d/10GhQCaJgtuiL2OADczLqchZ6klA1spjFuv55hCSZSJw/edit?usp=sharing">
+                FRC Awards List
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://drive.google.com/drive/folders/1-yiC8f0sz_OH0K6-3n3BInm_ONkzIiyz?usp=sharing">
+                2020 Optix Engineering Notebook
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://drive.google.com/drive/folders/1Vmrc2BYu8dzxOqciCbtQ9VAgU76QulRQ?usp=sharing">
+                Engineering Inspiration
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://drive.google.com/drive/folders/14lRoLLpxfglWHbms4f3nCy5WIL90NxKA?usp=sharing">
+                Safety Manual
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://drive.google.com/drive/folders/1BNuZqbHfnNvLRLCOHvAlR4apUivQ5YW8?usp=sharing">
+                Safety Posters
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://docs.google.com/document/d/1Emjzr1mcuLiKTZesnljBWIsBre1QebGeT0i-TnH4qqY/edit?usp=sharing">
+                2020 Chairman's Award
+              </a>
+            </p>
+          </li>
+        </ul>
       </div>
-      <div class="content" data-aos="fade-left">
-        <div id="general">
-          <h1>General Resources</h1>
-          <h3>
-            Team Optix's collection of technical and general FIRST® Robotics
-            Competition resources.
-          </h3>
-          <p>
-            Want to add a resource? Fill out
-            <a href="https://forms.gle/eVvEMcbjNQiSk38h6"><b>this form</b></a
-            >.
-          </p>
-          <hr />
-          <h3>YouTube Videos/Playlists</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/playlist?list=PL0NshWOPuid7HD6f3OFQJm4Z7AMPi0yj0"
-                >
-                  Raadwan's Epic FRC Playlist
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/playlist?list=PLpbY-dp-255sw_KgVOCwdeTnY5634SAzD"
-                >
-                  FRC Game Strategy Playlist
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://youtu.be/5fifL47TvzE">
-                  Karthik Kanagasabapathy's Effective FIRST Strategies, part 1
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://youtu.be/Smb7U4wqgsM">
-                  Karthik Kanagasabapathy's Effective FIRST Strategies, part 2
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://youtu.be/SVacrE4sKig">
-                  Citrus Circuits Strategic Design
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Important Documents and Rule Books</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://firstfrc.blob.core.windows.net/frc2020/Manual/2020FRCGameSeasonManual.pdf"
-                >
-                  FRC Infinite Recharge Game and Season Manual
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system"
-                >
-                  FRC Infinite Recharge Game and Season Materials
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Online FIRST Community Forums/Discussion Boards</h3>
-          <ul>
-            <li>
-              <p>
-                <a href="https://www.chiefdelphi.com/">
-                  ChiefDelphi: A discussion forum for the FIRST community.
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://discord.gg/frc"> FRC Global Discord Server </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://discord.gg/FHdCMkG">
-                  FRC California Discord Server
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://discord.gg/7vTXVFb">
-                  FRC #SDSQUAD Discord Server
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Awards</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/spreadsheets/d/10GhQCaJgtuiL2OADczLqchZ6klA1spjFuv55hCSZSJw/edit?usp=sharing"
-                >
-                  FRC Awards List
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://drive.google.com/drive/folders/1-yiC8f0sz_OH0K6-3n3BInm_ONkzIiyz?usp=sharing"
-                >
-                  2020 Optix Engineering Notebook
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://drive.google.com/drive/folders/1Vmrc2BYu8dzxOqciCbtQ9VAgU76QulRQ?usp=sharing"
-                >
-                  Engineering Inspiration
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://drive.google.com/drive/folders/14lRoLLpxfglWHbms4f3nCy5WIL90NxKA?usp=sharing"
-                >
-                  Safety Manual
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://drive.google.com/drive/folders/1BNuZqbHfnNvLRLCOHvAlR4apUivQ5YW8?usp=sharing"
-                >
-                  Safety Posters
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/document/d/1Emjzr1mcuLiKTZesnljBWIsBre1QebGeT0i-TnH4qqY/edit?usp=sharing"
-                >
-                  2020 Chairman's Award
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div id="software">
-          <h1>Software Resources</h1>
-          <p>
-            Here at Team Optix we use the Java programming language for our
-            robots. When programming robot subsystems you will need to
-            understand Java and Object Oriented Programming (OOP) principles.
-          </p>
-          <hr />
-          <h3>Documentation</h3>
-          <ul>
-            <li>
-              <p>
-                <a href="https://frc-pdr.readthedocs.io/en/latest/index.html">
-                  General Documentation
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/new-for-2020.html"
-                >
-                  WPILib
-                </a>
-              </p>
-            </li>
+      <div id="software">
+        <h1>Software Resources</h1>
+        <p>
+          Here at Team Optix we use the Java programming language for our
+          robots. When programming robot subsystems you will need to
+          understand Java and Object Oriented Programming (OOP) principles.
+        </p>
+        <hr />
+        <h3>Documentation</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://frc-pdr.readthedocs.io/en/latest/index.html">
+                General Documentation
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/new-for-2020.html">
+                WPILib
+              </a>
+            </p>
+          </li>
 
-            <li>
-              <p>
-                <a
-                  href="https://first.wpi.edu/FRC/roborio/release/docs/java/index.html"
-                >
-                  WPILib Java API
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://github.com/wpilibsuite/allwpilib/tree/master/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples"
-                >
-                  Java Examples
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html"
-                >
-                  CTRE Phoenix
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html"
-                >
-                  SPARK-MAX-roboRIO API
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/"
-                >
-                  Kauilabs navX MXP
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Old Robot Code</h3>
-          <ul>
-            <li>
-              <p>
-                <a href="https://github.com/Team-Optix-3749/Team3749-2020">
-                  2020 Team Optix 3749 Robot Code
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://github.com/Team-Optix-3749/Team3749-FRC2019">
-                  2019 Team Optix 3749 Robot Code
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="https://github.com/Team-Optix-3749/Team3749-FRC2018">
-                  2018 Team Optix 3749 Robot Code
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>YouTube Videos/Playlists</h3>
-          <ul>
-            <li>
-              <p>
-                <a href="https://youtu.be/wqJ4tY0u6IQ">
-                  Team 5190: Zero to Trajectory Tracking
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div id="electrical">
-          <h1>Electrical Resources</h1>
-          <hr />
-          <h3>Overview</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://docs.wpilib.org/en/stable/docs/getting-started/getting-started-frc-control-system/how-to-wire-a-robot.html"
-                >
-                  How to Wire an FRC Robot
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/roboRIO/index.html"
-                >
-                  FRC Electrical Bible
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.chiefdelphi.com/uploads/default/original/3X/2/8/28529f934b4f36f689a512c26da2c8725438562d.pdf"
-                >
-                  A Primer on Electronics & Wiring in FRC
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/document/d/1DWktsIyFx9LDg2FKNm5Rkt2RC0K3OhBKp4SL9KYaHAs/edit"
-                >
-                  Spectrum FRC Electrical Guide
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Wiring</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="http://www.citruscircuits.org/uploads/6/9/3/4/6934550/robot_wiring.pdf"
-                >
-                  Citrus Circuits Robot Wiring
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=TEFeel3Y67U&ab_channel=RobotsExplained"
-                >
-                  Wire Gauge Basics
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=fiwsPt0FBy0&feature=emb_title&ab_channel=Justin"
-                >
-                  FRC CAN Wiring
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Crimping</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=m7ihZFFiAkU&t=2s&ab_channel=RobotsExplained"
-                >
-                  Anderson Power Pole Connector
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=MgoAajzsiWc&ab_channel=RobotsExplained"
-                  >Weidmuller Ferrules</a
-                >
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=oN-tps_HEj0&t=3s&ab_channel=AutomationDirect.com"
-                >
-                  Ferrules in FRC
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Sensors</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://frc2468.org/wp-content/uploads/2016/11/Sensors-for-FRC.pdf"
-                >
-                  Sensors for FRC
-                </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Soldering</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://frc-west.github.io/courses/ELT1010/4-FabricationofComponents/1-Soldering/"
-                >
-                  FRC Soldering
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://www.youtube.com/watch?v=Zu3TYBs65FM&ab_channel=ChrisFix"
-                >
-                  Soldering Tutorial
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div id="design">
-          <h1>Design Resources</h1>
-          <hr />
-          <h3>Resources</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/document/d/1uhfATGqYexQLi3cFpzMAvzlfynH1_qLKSdNN2KPPwDY/edit?usp=sharing"
-                >
-                  Autodesk Inventor Info
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/spreadsheets/d/1LBx_ecdkeRvGb5W3wuex-mWHM9CUY0dpFNp4ZQAQcKg/edit?usp=sharing"
-                >
-                  Data Collection
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a
-                  href="https://docs.google.com/spreadsheets/d/1sU7izro0lrMHx06u8RgWIkc83tIcFPdT9_2X8qSC5Dg/edit?usp=sharing"
-                >
-                  2020 Mechanics Database
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div id="build">
-          <h1>Build Resources</h1>
-          <hr />
-          <h3>Fabrication</h3>
-          <ul>
-            <li>
-              <p>
-                <a href=""> </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Assembly</h3>
-          <ul>
-            <li>
-              <p>
-                <a href=""> </a>
-              </p>
-            </li>
-          </ul>
-          <h3>Mechanical</h3>
-          <ul>
-            <li>
-              <p>
-                <a
-                  href="https://content.vexrobotics.com/vexpro/pdf/VersaPlanetary-v1-User-Guide-20161123.pdf"
-                >
-                  VersaPlanetary Gearboxes
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <p>
+              <a href="https://first.wpi.edu/FRC/roborio/release/docs/java/index.html">
+                WPILib Java API
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://github.com/wpilibsuite/allwpilib/tree/master/wpilibjExamples/src/main/java/edu/wpi/first/wpilibj/examples">
+                Java Examples
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://phoenix-documentation.readthedocs.io/en/latest/ch05a_CppJava.html">
+                CTRE Phoenix
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html">
+                SPARK-MAX-roboRIO API
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.kauailabs.com/public_files/navx-mxp/apidocs/java/">
+                Kauilabs navX MXP
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Old Robot Code</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://github.com/Team-Optix-3749/Team3749-2020">
+                2020 Team Optix 3749 Robot Code
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://github.com/Team-Optix-3749/Team3749-FRC2019">
+                2019 Team Optix 3749 Robot Code
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://github.com/Team-Optix-3749/Team3749-FRC2018">
+                2018 Team Optix 3749 Robot Code
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>YouTube Videos/Playlists</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://youtu.be/wqJ4tY0u6IQ">
+                Team 5190: Zero to Trajectory Tracking
+              </a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div id="electrical">
+        <h1>Electrical Resources</h1>
+        <hr />
+        <h3>Overview</h3>
+        <ul>
+          <li>
+            <p>
+              <a
+                href="https://docs.wpilib.org/en/stable/docs/getting-started/getting-started-frc-control-system/how-to-wire-a-robot.html">
+                How to Wire an FRC Robot
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://mililanirobotics.gitbooks.io/frc-electrical-bible/content/roboRIO/index.html">
+                FRC Electrical Bible
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://www.chiefdelphi.com/uploads/default/original/3X/2/8/28529f934b4f36f689a512c26da2c8725438562d.pdf">
+                A Primer on Electronics & Wiring in FRC
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://docs.google.com/document/d/1DWktsIyFx9LDg2FKNm5Rkt2RC0K3OhBKp4SL9KYaHAs/edit">
+                Spectrum FRC Electrical Guide
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Wiring</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="http://www.citruscircuits.org/uploads/6/9/3/4/6934550/robot_wiring.pdf">
+                Citrus Circuits Robot Wiring
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=TEFeel3Y67U&ab_channel=RobotsExplained">
+                Wire Gauge Basics
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=fiwsPt0FBy0&feature=emb_title&ab_channel=Justin">
+                FRC CAN Wiring
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Crimping</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=m7ihZFFiAkU&t=2s&ab_channel=RobotsExplained">
+                Anderson Power Pole Connector
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=MgoAajzsiWc&ab_channel=RobotsExplained">Weidmuller Ferrules</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=oN-tps_HEj0&t=3s&ab_channel=AutomationDirect.com">
+                Ferrules in FRC
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Sensors</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://frc2468.org/wp-content/uploads/2016/11/Sensors-for-FRC.pdf">
+                Sensors for FRC
+              </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Soldering</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://frc-west.github.io/courses/ELT1010/4-FabricationofComponents/1-Soldering/">
+                FRC Soldering
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.youtube.com/watch?v=Zu3TYBs65FM&ab_channel=ChrisFix">
+                Soldering Tutorial
+              </a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div id="design">
+        <h1>Design Resources</h1>
+        <hr />
+        <h3>Resources</h3>
+        <ul>
+          <li>
+            <p>
+              <a
+                href="https://docs.google.com/document/d/1uhfATGqYexQLi3cFpzMAvzlfynH1_qLKSdNN2KPPwDY/edit?usp=sharing">
+                Autodesk Inventor Info
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1LBx_ecdkeRvGb5W3wuex-mWHM9CUY0dpFNp4ZQAQcKg/edit?usp=sharing">
+                Data Collection
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1sU7izro0lrMHx06u8RgWIkc83tIcFPdT9_2X8qSC5Dg/edit?usp=sharing">
+                2020 Mechanics Database
+              </a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div id="build">
+        <h1>Build Resources</h1>
+        <hr />
+        <h3>Fabrication</h3>
+        <ul>
+          <li>
+            <p>
+              <a href=""> </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Assembly</h3>
+        <ul>
+          <li>
+            <p>
+              <a href=""> </a>
+            </p>
+          </li>
+        </ul>
+        <h3>Mechanical</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://content.vexrobotics.com/vexpro/pdf/VersaPlanetary-v1-User-Guide-20161123.pdf">
+                VersaPlanetary Gearboxes
+              </a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div id="news">
+        <h1>FIRST News</h1>
+        <p>Get all the FIRST news you need to know here!</p>
+        <hr />
+        <h3>News</h3>
+        <ul>
+          <li>
+            <p>
+              <a href="https://www.firstinspires.org/robotics/frc/blog"">
+                        FIRST® FRC Blog
+                  </a>
+                </p>
+              </li>
+            </ul>
       </div>
     </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+
+  </div>
+
+
+  <script src=" https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                  AOS.init();
+                </script>
+</body>
+
 </html>
